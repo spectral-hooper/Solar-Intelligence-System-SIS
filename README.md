@@ -4,6 +4,16 @@ A pipeline for analyzing **Hinode Solar Optical Telescope Spectro-Polarimeter (S
 
 ---
 
+## 🌐 Data Acquisition
+
+This pipeline is designed for high-precision spectro-polarimetry. For benchmarking and validation, we recommend using datasets from the official mission archives:
+
+* **Primary Source:** [Hinode SOT/SP Level-1(HAO) Data Archive](https://data.darts.isas.jaxa.jp/pub/hinode/sot/level1hao/)
+
+> **Notice:** External links for sample FITS datasets were appended post-deadline with official organizer approval to ensure pipeline reproducibility for evaluators.
+
+---
+
 ## How It Works
 
 The **Solar Intelligence System (SIS)** evaluates each Stokes V profile *before* any physics computation and classifies it into one of three signal classes.
