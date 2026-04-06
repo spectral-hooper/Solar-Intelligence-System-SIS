@@ -73,12 +73,12 @@ To guarantee scientific accuracy, the system uses stochastic Monte-Carlo simulat
 Finally, the system compiles all the raw numbers and uses an integrated LLM Agent (Google Gemini 2.5 Flash). The AI analyzes the data and generates a readable, human-friendly scientific report for the operator, summarizing the magnetic topology, temperature gradients, and potential flare risks.
 
 📁 Repository Structure
-sis_gui_app_v2.py — The front-end desktop application. Built with PySide6, featuring a mission-control dashboard and live console.
+`sis_gui_app_v2.py` — The front-end desktop application. Built with PySide6, featuring a mission-control dashboard and live console.
 
-NEW_solar_analyzer_SIS_v8_fixed.py — The heavy backend containing the XGBoost router, physical formulas, and Gemini API integration.
+`NEW_solar_analyzer_SIS_v8_fixed.py` — The heavy backend containing the XGBoost router, physical formulas, and Gemini API integration.
 
-xgb_model.pkl — The pre-trained weights for our AI Router.
+`xgb_model.pkl` — The pre-trained weights for our AI Router.
 
-SIS_Runs/ — The automated workspace folder where all generated dashboards, CSVs, and AI reports are saved.
+`SIS_Runs/` — The automated workspace folder where all generated dashboards, CSVs, and AI reports are saved.
 
 Created by SpectrumTeam for the AEROO Space AI Competition 2026.
