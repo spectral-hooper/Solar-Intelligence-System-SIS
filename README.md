@@ -3,7 +3,8 @@
 
 [![Python 3.10+](https://img.shields.io/badge/python-3.10+-blue.svg)](https://www.python.org/downloads/)
 [![Release](https://img.shields.io/badge/release-v8.0_Standalone-success.svg)](https://github.com/spectral-hooper/Solar-Intelligence-System-SIS/releases/latest)
-[![AI Powered](https://img.shields.io/badge/AI-XGBoost_%7C_Gemini-blue.svg)](https://xgboost.readthedocs.io/)
+[![XGBoost](https://img.shields.io/badge/AI-XGBoost-orange.svg)](https://xgboost.readthedocs.io/)
+[![Gemini AI](https://img.shields.io/badge/AI-Gemini-blueviolet.svg)](https://ai.google.dev/)
 
 ## 🚀 Overview
 **SIS (Solar Intelligence System)** is a B2B software solution designed for aerospace corporations and observatories. It processes raw spectropolarimetric data from the Hinode satellite to monitor solar magnetic anomalies.
