@@ -1,16 +1,17 @@
-MIT License
+Copyright (c) 2026 SpectrumTeam. All rights reserved.
 
-Copyright (c) 2026 spectral-hooper
+PROPRIETARY AND CONFIDENTIAL
 
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
+This software and associated documentation files (the "Software") are the intellectual property of SpectrumTeam. 
+The intellectual property rights are officially registered and protected by the patent of the Republic of Kazakhstan (Kazpatent). 
+Registration Number: 69497 (verifiable at copyright.kazpatent.kz).
 
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
+The source code is published strictly for architectural review and evaluation purposes.
+
+You are STRICTLY PROHIBITED to:
+1. Copy, reproduce, modify, merge, publish, distribute, sublicense, or sell copies of the Software.
+2. Use the Software or any of its components for commercial or non-commercial purposes.
+3. Reverse engineer, decompile, or extract any algorithms from the source code.
 
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
 IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
