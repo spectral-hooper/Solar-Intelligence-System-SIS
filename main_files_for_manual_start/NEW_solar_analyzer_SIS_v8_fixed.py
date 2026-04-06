@@ -61,7 +61,7 @@ import os
 import time
 import argparse
 import warnings
-os.environ["GEMINI_API_KEY"] = "AIzaSyALeOC0G-kdEmEUPW_WC_CBKuPlbba66LA"
+os.environ["GEMINI_API_KEY"] = "your-key"
 from typing import Any, Callable, Dict, List, Optional, Tuple
 
 import numpy as np
