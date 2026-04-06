@@ -1,4 +1,3 @@
-```markdown
 # ☀️ SIS v8: Solar Intelligence System
 **An AI-first pipeline for real-time solar magnetic field analysis and space weather prediction.**
 
