@@ -1,34 +1,36 @@
 # ☀️ SIS v8: Solar Intelligence System
-**An AI-first pipeline for real-time solar magnetic field analysis and space weather prediction.**
 
 [![Python 3.10+](https://img.shields.io/badge/python-3.10+-blue.svg)](https://www.python.org/downloads/)
-[![Release](https://img.shields.io/badge/release-v8.0_Standalone-success.svg)](https://github.com/spectral-hooper/Solar-Intelligence-System-SIS/releases/latest)
+[![Release](https://img.shields.io/badge/release-v8.0_Standalone-success.svg)](https://github.com/ТВОЙ_ЛОГИН/ТВОЙ_РЕПОЗИТОРИЙ/releases/latest)
 [![XGBoost](https://img.shields.io/badge/AI-XGBoost-orange.svg)](https://xgboost.readthedocs.io/)
 [![Gemini AI](https://img.shields.io/badge/AI-Gemini-blueviolet.svg)](https://ai.google.dev/)
 
+**An AI-first pipeline for real-time solar magnetic field analysis and space weather prediction.**
+   
 ## 🚀 Overview
-**SIS (Solar Intelligence System)** is a B2B software solution designed for aerospace corporations and observatories. It processes raw spectropolarimetric data from the Hinode satellite to monitor solar magnetic anomalies.
+**SIS (Solar Intelligence System)** is a B2B software solution designed for aerospace corporations and observatories. It processes raw spectropolarimetric data from the Hinode satellite to monitor solar magnetic anomalies. 
 
 Unlike traditional methods that take weeks to process data, SIS uses a **Hybrid AI Architecture** to reduce processing time to **milliseconds**. This allows operators to predict solar flares and put satellites into safe mode before geomagnetic storms hit.
 
 ---
 
 ## 🛠️ How to Run the Application
-We provide two ways to run the Solar Intelligence System. 
+We provide two ways to run the Solar Intelligence System.
 
 ### Option 1: Standalone Application (Recommended)
-For the easiest experience, we have compiled the entire system (including the AI models and physics engines) into a single, zero-dependency executable.
+For the easiest experience, we have compiled the entire system (including the AI models and physics engines) into a ready-to-use package.
 
-1. Go to the **Releases** tab and download `SIS_v8_Dashboard.exe`.
-2. Double-click the file. **No Python installation is needed.** The XGBoost model and all libraries are safely bundled inside.
+1. Go to the **Releases** tab and download the `SIS_v8_Windows_x64.zip` archive.
+2. **Extract the entire folder** to your PC. *(Important: Do not separate the `.exe` file from the `_internal` folder).*
+3. Double-click the `.exe` file. **No Python installation is needed.** The XGBoost model and all libraries are safely bundled inside.
 
 ### Option 2: Run from Source (For developers)
-If you want to run the raw Python code, follow these steps:
+If you want to run the raw Python code and review the architecture, the source files are located in the `main_files_for_manual_start` directory.
 
-1. **Clone the repository:**
+1. Clone the repository and navigate to the source folder:
 ```bash
-git clone [https://github.com/YourUsername/SIS_Project.git](https://github.com/YourUsername/SIS_Project.git)
-cd SIS_Project
+git clone [https://github.com/spectral-hooper/Solar-Intelligence-System-SIS.git](https://github.com/spectral-hooper/Solar-Intelligence-System-SIS.git)
+cd Solar-Intelligence-System-SIS/main_files_for_manual_start
 ```
 Install requirements:
 
@@ -56,7 +58,7 @@ Before any heavy math starts, our pre-trained XGBoost machine learning model sca
 
 Why this is innovative: By filtering out empty space and routing data dynamically, XGBoost saves 85% of computational time.
 
-2. The Physics Engine ("The Fantastic Four")
+2. The Physics Engine
 After the AI sorts the data, our deterministic physics engine extracts four critical parameters to predict solar flares:
 
 Magnetic Field (Zeeman & WFA): Measures the tension of solar magnetic lines (the "size" of the threat).
@@ -74,12 +76,21 @@ To guarantee scientific accuracy, the system uses stochastic Monte-Carlo simulat
 Finally, the system compiles all the raw numbers and uses an integrated LLM Agent (Google Gemini 2.5 Flash). The AI analyzes the data and generates a readable, human-friendly scientific report for the operator, summarizing the magnetic topology, temperature gradients, and potential flare risks.
 
 📁 Repository Structure
-`sis_gui_app_v2.py` — The front-end desktop application. Built with PySide6, featuring a mission-control dashboard and live console.
+main_files_for_manual_start/ — Source code directory for manual execution.
 
-`NEW_solar_analyzer_SIS_v8_fixed.py` — The heavy backend containing the XGBoost router, physical formulas, and Gemini API integration.
+sis_gui_app_v2.py — The front-end desktop application. Built with PySide6, featuring a mission-control dashboard and live console.
 
-`xgb_model.pkl` — The pre-trained weights for our AI Router.
+NEW_solar_analyzer_SIS_v8_fixed.py — The heavy backend containing the XGBoost router, physical formulas, and Gemini API integration.
 
-`SIS_Runs/` — The automated workspace folder where all generated dashboards, CSVs, and AI reports are saved.
+xgb_model.pkl — The pre-trained weights for our AI Router.
 
-Created by SpectrumTeam for the AEROO Space AI Competition 2026.
+SIS_Runs/ — The automated workspace folder where all generated dashboards, CSVs, and AI reports are saved.
+
+LICENSE — Proprietary licensing document.
+
+⚖️ License & Copyright
+© 2026 SpectrumTeam. All rights reserved.
+
+This is a proprietary closed-source B2B product. The source code is published strictly for architectural review by the AEROO Space AI Competition jury. Protected by Kazpatent (Registration Number: 69497).
+
+You may not copy, modify, distribute, or reverse-engineer this software. For full details, see the LICENSE file in the root directory.
