@@ -1,7 +1,7 @@
 # ☀️ SIS v8: Solar Intelligence System
 
 [![Python 3.10+](https://img.shields.io/badge/python-3.10+-blue.svg)](https://www.python.org/downloads/)
-[![Release](https://img.shields.io/badge/release-v8.0_Standalone-success.svg)](https://github.com/ТВОЙ_ЛОГИН/ТВОЙ_РЕПОЗИТОРИЙ/releases/latest)
+[![Release](https://img.shields.io/badge/release-v8.0_Standalone-success.svg)](https://github.com/spectral-hooper/Solar-Intelligence-System-SIS/releases/latest)
 [![XGBoost](https://img.shields.io/badge/AI-XGBoost-orange.svg)](https://xgboost.readthedocs.io/)
 [![Gemini AI](https://img.shields.io/badge/AI-Gemini-blueviolet.svg)](https://ai.google.dev/)
 
