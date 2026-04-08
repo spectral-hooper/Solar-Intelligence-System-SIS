@@ -1,0 +1,22 @@
+# Solar Intelligence System (SIS v8) Dependencies
+# Python 3.10+
+
+# GUI Framework
+PySide6
+
+# Data Processing & Math
+numpy
+pandas
+scipy
+
+# Astrophysics & Physics Engine
+astropy
+
+# AI Router & Machine Learning
+xgboost
+
+# Plotting & Visualization
+matplotlib
+
+# LLM Automated Reporting
+google-genai
