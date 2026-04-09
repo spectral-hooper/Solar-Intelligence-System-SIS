@@ -83,14 +83,20 @@ All core algorithms and architectures are fully protected by law. To verify our 
 ## 📁 Repository Structure
 
 * `main_files_for_manual_start/` — Source code directory for manual execution.
+  
   * `sis_gui_app_v2.py` — The front-end desktop application. Built with PySide6, featuring a mission-control dashboard and live console.
+    
   * `NEW_solar_analyzer_SIS_v8_fixed.py` — The heavy backend containing the XGBoost router, physical formulas, and Gemini API integration.
+    
   * `xgb_model.pkl` — The pre-trained weights for our AI Router.
+    
 * `Official_Docs/` — Due Diligence directory containing our intellectual property and academic validation.
+  
   * `official_copyright_kazpatent.pdf` — Official software copyright registration from Kazpatent.
+    
   * `official_review_and_loi.pdf` — Expert technical review and Letter of Intent from Kozybayev University.
+    
 * `LICENSE` — Proprietary licensing document.
-
 ⚖️ License & Copyright
 © 2026 SpectrumTeam. All rights reserved.
 
