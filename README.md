@@ -75,18 +75,21 @@ To guarantee scientific accuracy, the system uses stochastic Monte-Carlo simulat
 4. Automated LLM Reporting (Powered by Gemini)
 Finally, the system compiles all the raw numbers and uses an integrated LLM Agent (Google Gemini 2.5 Flash). The AI analyzes the data and generates a readable, human-friendly scientific report for the operator, summarizing the magnetic topology, temperature gradients, and potential flare risks.
 
-📁 Repository Structure
-`main_files_for_manual_start/` — Source code directory for manual execution.
+### 5. Due Diligence & IP Protection
+All core algorithms and architectures are fully protected by law. To verify our intellectual property and academic backing, please check the `Official_Docs/` directory:
+* 📄 **`official_copyright_kazpatent.pdf`**: Our official software copyright registration from Kazpatent (Republic of Kazakhstan), proving 100% ownership of the source code.
+* 🎓 **`official_review_and_loi.pdf`**: An expert technical review and Letter of Intent (LOI) from Kozybayev North Kazakhstan University, validating our scientific approach and startup potential.
 
-`sis_gui_app_v2.py` — The front-end desktop application. Built with PySide6, featuring a mission-control dashboard and live console.
+## 📁 Repository Structure
 
-`NEW_solar_analyzer_SIS_v8_fixed.py` — The heavy backend containing the XGBoost router, physical formulas, and Gemini API integration.
-
-`xgb_model.pkl` — The pre-trained weights for our AI Router.
-
-`SIS_Runs/` — The automated workspace folder where all generated dashboards, CSVs, and AI reports are saved.
-
-`LICENSE` — Proprietary licensing document.
+* `main_files_for_manual_start/` — Source code directory for manual execution.
+  * `sis_gui_app_v2.py` — The front-end desktop application. Built with PySide6, featuring a mission-control dashboard and live console.
+  * `NEW_solar_analyzer_SIS_v8_fixed.py` — The heavy backend containing the XGBoost router, physical formulas, and Gemini API integration.
+  * `xgb_model.pkl` — The pre-trained weights for our AI Router.
+* `Official_Docs/` — Due Diligence directory containing our intellectual property and academic validation.
+  * `official_copyright_kazpatent.pdf` — Official software copyright registration from Kazpatent.
+  * `official_review_and_loi.pdf` — Expert technical review and Letter of Intent from Kozybayev University.
+* `LICENSE` — Proprietary licensing document.
 
 ⚖️ License & Copyright
 © 2026 SpectrumTeam. All rights reserved.
