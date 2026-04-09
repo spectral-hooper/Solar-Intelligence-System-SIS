@@ -97,6 +97,7 @@ All core algorithms and architectures are fully protected by law. To verify our 
   * `official_review_and_loi.pdf` — Expert technical review and Letter of Intent from Kozybayev University.
     
 * `LICENSE` — Proprietary licensing document.
+
 ⚖️ License & Copyright
 © 2026 SpectrumTeam. All rights reserved.
 
