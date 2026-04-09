@@ -75,7 +75,7 @@ To guarantee scientific accuracy, the system uses stochastic Monte-Carlo simulat
 4. Automated LLM Reporting (Powered by Gemini)
 Finally, the system compiles all the raw numbers and uses an integrated LLM Agent (Google Gemini 2.5 Flash). The AI analyzes the data and generates a readable, human-friendly scientific report for the operator, summarizing the magnetic topology, temperature gradients, and potential flare risks.
 
-### 5. Due Diligence & IP Protection
+### Due Diligence & IP Protection
 All core algorithms and architectures are fully protected by law. To verify our intellectual property and academic backing, please check the `Official_Docs/` directory:
 * 📄 **`official_copyright_kazpatent.pdf`**: Our official software copyright registration from Kazpatent (Republic of Kazakhstan), proving 100% ownership of the source code.
 * 🎓 **`official_review_and_loi.pdf`**: An expert technical review and Letter of Intent (LOI) from Kozybayev North Kazakhstan University, validating our scientific approach and startup potential.
